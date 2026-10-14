@@ -1,0 +1,10 @@
+$Question 1: Why did the merge conflict occur?
+The conflict happened because I changed the same Skills section differently in two branches. Git could not decide which changes to keep.
+Question 2: What could have prevented the conflict?
+I could have merged my changes more often or worked on different sections of the file in each branch.
+Question 3: How can you avoid conflicts when working on multiple devices?
+I should pull the latest changes before starting work and push my changes when I finish.
+Question 4: What was the most challenging part?
+The most challenging part was resolving the conflict manually and making sure I kept the changes from both branches.
+Question 5: How did Git identify the conflict?
+Git detected that both branches changed the same lines. It added conflict markers to show the different versions.

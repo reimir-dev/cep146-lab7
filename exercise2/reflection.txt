@@ -1,0 +1,19 @@
+**Question 1: How many commits did you need to check using Git Bisect?**
+
+I checked three commits during the bisect process before Git identified the commit that introduced the mistake.
+
+**Question 2: How many checks would Git Bisect need for 100 commits?**
+
+Git Bisect would need approximately 7 checks because it divides the search range in half each time.
+
+**Question 3: How is Git Bisect different from checking commits manually?**
+
+Git Bisect is faster because it automatically narrows down the search. Checking manually would require going through commits one by one.
+
+**Question 4: When would Git Bisect be useful?**
+
+Git Bisect would be useful when a program suddenly stops working and I need to find which commit introduced the problem.
+
+**Question 5: What do you need to know before using Git Bisect?**
+
+I need to identify a good commit where the program worked correctly and a bad commit where the problem exists.
